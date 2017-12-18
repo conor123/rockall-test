@@ -1,4 +1,3 @@
-require "test/unit"
 require_relative "../lib/validator"
 
 class TestValidator < Test::Unit::TestCase
@@ -14,7 +13,7 @@ class TestValidator < Test::Unit::TestCase
     assert_false(result)
   end
 
-   def test_validate_params
+  def test_validate_params
     input_array = ["api.example.com/content.json"]
     result = Validator::validate_input(input_array )
     assert(result.is_a? String)

@@ -10,7 +10,9 @@ class Parser
         return false
       end
     rescue JSON::ParserError => e
-      abort "> ERROR: not JSON!"
+      puts "> ERROR: not JSON!"
+      puts "#{e}"
+      return false
     end
   end
 end
