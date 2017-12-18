@@ -13,8 +13,8 @@ input_array = ARGV
 
 uri = validate_input(input_array)
 
-market_data = parse_url(uri)
+market_data = parse_uri(uri)
 
-puts custom_data = process_data(market_data)
+p custom_data = process_data(market_data)
 
 # print_custom_data(custom_data)
