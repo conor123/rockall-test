@@ -1,2 +1,0 @@
-INFO: ticker: , price: 1.47, id: IE0003295239
-Processor
