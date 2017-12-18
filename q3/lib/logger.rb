@@ -10,7 +10,7 @@ class Logger
   INFO=3
   
   def initialize
-    @log = File.open("log.txt", "w")
+    @log = File.open("logs/log.txt", "w")
     @level = WARNING
   end
   

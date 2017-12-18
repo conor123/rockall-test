@@ -10,3 +10,9 @@ Error Handling
 --------------
 - Input validations fom cli
 - JSON format Validation
+- Any bad data as null entry for json data received is logged
+
+Testing
+-------
+
+ruby -Ilib tests/test_app.rb

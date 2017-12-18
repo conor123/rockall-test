@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'net/http'
 require 'json'
-require 'validation'
+require 'validator'
 require 'parser'
 require 'printer'
 require 'processor'
@@ -10,6 +10,6 @@ require 'logger'
 
 puts "***********************************\n*** Welcome to market data v1.0 ***\n***********************************\n"
 
-market_data = parse_uri(validate_input(ARGV))
+market_data = Parser::parse_uri(Validator::validate_input(ARGV))
 
-p custom_data = process_data(market_data)
+p custom_data = Processor::process_data(market_data)
