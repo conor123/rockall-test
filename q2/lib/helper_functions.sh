@@ -1,6 +1,6 @@
 process_file()
 {
-  MYOUTFILE="invalid_emails.txt"
+  MYOUTFILE="logs/invalid_emails.txt"
   if [ -f $FILENAME ]
   then
     i=0

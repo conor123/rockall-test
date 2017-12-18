@@ -1,8 +1,8 @@
 #!/usr/bin/bash
 # dependencies
-. errors.sh
-. helper_functions.sh
-. validations.sh
+. lib/errors.sh
+. lib/helper_functions.sh
+. lib/validations.sh
 
 FILENAME="$1"
 
