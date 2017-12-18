@@ -1,5 +1,4 @@
 def parse_uri(uri)
-  
   begin
   	uri = URI(uri)
     response = Net::HTTP.get(uri)

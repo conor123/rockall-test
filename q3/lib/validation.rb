@@ -4,6 +4,6 @@ def validate_input(input_array)
   	abort "> ERROR: exiting!"
   else
   	puts "> Input Validated OK"
-  	return input_array[0]
+  	input_array[0]
   end
 end

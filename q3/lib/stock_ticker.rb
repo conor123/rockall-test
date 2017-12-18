@@ -9,9 +9,9 @@ class StockTicker
   
   def as_json(options={})
     {
-        ticker: @ticker,
-        price: @price,
-        isin: @isin
+      ticker: @ticker,
+      price: @price,
+      isin: @isin
     }
   end
 
