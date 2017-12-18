@@ -1,5 +1,5 @@
 #!/usr/bin/bash
-#set -e
+# dependencies
 . errors.sh
 . helper_functions.sh
 . validations.sh
@@ -14,8 +14,6 @@ validate_input $FILENAME
 
 # Process Filename
 process_file $FILENAME
-
-# Process Output
 
 # Finally
 trap : 0
