@@ -15,4 +15,4 @@ Error Handling
 Testing
 -------
 
-ruby -Ilib tests/test_app.rb
+ruby -Ilib tests/test*.rb

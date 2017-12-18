@@ -15,7 +15,6 @@ class TestValidator < Test::Unit::TestCase
   end
 
    def test_validate_params
-    # Check long array
     input_array = ["api.example.com/content.json"]
     result = Validator::validate_input(input_array )
     assert(result.is_a? String)
